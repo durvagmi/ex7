@@ -5,7 +5,6 @@ on:
   #   inputs:
   #     message:
   #       description: 'call from ui'
-
   # Dependency to a forking workflow
   workflow_run:
     workflows: ["dispatch workflow"]
