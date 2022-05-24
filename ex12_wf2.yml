@@ -8,7 +8,7 @@ on:
   # Dependency to a forking workflow
   workflow_run:
     workflows: ["dispatch workflow"]
-    type:
+    types:
       - completed
 jobs:
   say_hi:
